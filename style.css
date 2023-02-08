@@ -1,0 +1,290 @@
+/* STYLING, mobile-first approach */
+
+:root {
+  --darkgrey: #241E20;
+  --white: white;
+  --green: #BBCF31;
+  --lightgreen: #bacf3173;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: var(--darkgrey);
+  color: var(--white);
+  font-family: 'Doppio One', sans-serif;
+}
+    
+h1 {
+  color:var(--white);
+  font-size: 20px
+}
+
+h2 {
+  color:var(--white);
+  font-size: 16px;
+}
+
+h3{
+  font-size: 14px;
+}
+
+p {
+  color:var(--white);
+  font-size: 12px;
+  }
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+}
+
+a:hover {
+  color:var(--green);
+  transition: 0.5s;
+}
+
+/* STYLING HEADER */
+
+header {
+  margin: 0;
+  padding: 0;
+}
+    
+.header-text-button {
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  height: 10px;
+  z-index:10;
+  position: absolute;
+}
+
+.headerText {
+    margin-top: -400px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  z-index: 0;
+  position: relative;
+}
+
+.boka-knapp {
+  padding: 15px;
+  color: var(--darkgrey);
+  background-color:var(--green);
+  font-family: 'Doppio One', sans-serif;
+  font-size: 16px;
+  border-radius: 30px;
+  border-style: none;
+}
+
+.boka-knapp:hover {
+  background-color: var(--lightgreen);
+}
+    
+ /* STYLING NAVBAR TOP */
+
+.topnav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:(var(--darkgrey));
+  height: 100px;
+  visibility: hidden;
+}
+
+.topnav-left,.topnav-right {
+  background-color: var(--darkgrey);
+  overflow: hidden;
+  display:flex;
+  align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-left a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.topnav-right a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Change the color of links on hover */
+.topnav-left a:hover,.topnav-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav-left a.active,.topnav-right a.active {
+  background-color: var(--green);
+  color: white;
+}
+
+.logo-top {
+  display: block;
+  margin: -100px auto auto auto;
+  padding: 15px 0;
+  height: 50px;
+}
+
+/* STYLING TACK SPONSORER */
+
+.tack-sponsorer {
+  margin: 5% 5%;
+}
+
+.sponsor-lista{
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 8% 0;
+  text-align: left;
+  margin-left: 10%;
+}
+
+/* STYLING BLI SPONSOR */
+
+.bli-sponsor-wrapper {
+  border-top: 2px dotted var(--green);
+  margin: 5% 5%;
+  font-size: 12px;
+}
+
+.bli-sponsor {
+  margin-bottom: 0;
+}
+
+.guld-sponsor,.silver-sponsor{
+  padding: 0px;
+  margin: 0 5%;
+}
+
+/* Styling FAQ-box */
+
+    .faqBox {
+      border: 2px dotted var(--green);
+      margin: 5%;
+      padding: 0 5% 5% 5%;
+      background-color: var(--darkgrey);
+    }
+    
+    .question {
+      margin: 2%;
+      padding: 2%;
+      font-size:14px;
+      margin:0;
+    }
+
+    .question:hover {
+        color:var(--green);
+        display: inline;
+    }
+    
+    .answer {
+      display: none;
+    }
+    
+    .active + .answer {
+      display: block;
+    }
+
+
+/* STYLING NAVBAR BOTTOM */
+
+.bottomnav-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color:var(--darkgrey);
+    margin: 15%
+}
+
+.bottomnav-left {
+    background-color: var(--darkgrey);
+    overflow: hidden;
+    display: flex;
+    margin: 5%;
+  }
+
+.bottomnav-images {
+  background-color: var(--darkgrey);
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20%
+}
+
+  /* Style the links inside the navigation bar */
+  .bottomnav-left a {
+    float: left;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomnav-left a:hover,.bottomnav-right a:hover {
+    border: 2px dotted var(--lightgreen);
+    border-radius: 50px;
+  }
+  
+  /* Add a green background color to the active link */
+  .bottomnav-left a.active, .bottomnav-right a.active {
+    border: 2px dotted var(--green);
+    border-radius: 50px;
+    color: var(--white);
+  }
+  
+  /* Hide the link that should open and close the navbar on small screens */
+  .bottomnav-left .icon,.bottomnav-right .icon  {
+    display: none;
+  }
+
+  .logo-bottom {
+    display: block;
+    margin: -40px auto 20px auto;
+    padding: 0 0 0 0;
+}
+
+/* For Mobile */
+@media (max-width: 650px) {
+  .logo-bottom {
+    height: 50px;
+  }
+
+  .bottomnav-left,.bottomnav-right {
+    background-color: var(--darkgrey);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+}
