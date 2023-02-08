@@ -6,9 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Doppio+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Kilafors Padel</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎾</text></svg>">
-    <link rel="stylesheet" href="style.css">
+    <!-- I know this solution for favicon gets an error in the validator, but is the only one I could make work -->
   </head>
   <body>
     <header>
@@ -27,7 +28,77 @@
         </div>
       </div>
       <img src="./material/Logo.jpg" alt="kilafors padel logo" class="logo-top" height="70">
+      <div class="video-container">
+        <video height="600" class="video" autoplay loop>
+          <source src="./material/IMG_8712.MOV" type="video/mp4">
+        </video>
+      </div>
+      <div class="header-text-button">
+        <h1 class="headerText">Välkommen till sveriges mest tillgängliga padelbana!</h1>
+        <a href="https://www.matchi.se/facilities/kilaforspadel?date=2021-06-11&sport=" class="boka-knapp" target="_blank" rel="noreferrer">Boka padeltider</a>
+     </div>
     </header>
+
+    <div class="faqBox">
+      <section class="accordion">
+        <!-- Accordion -->
+        <h2>HUR GÖR JA?</h2>
+        <div class="question" id="section1">Racket?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section2">Böll?</div>
+        <div class="answer">
+          <p>....</p>
+        </div>
+        <div class="question" id="section3">Klär och skor?</div>
+        <div class="answer">
+          <p>....</p>
+        </div>
+        <div class="question" id="section4">Va kösterä rå?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section5">Hur gö ja rå?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section6">Vart parkerer ja?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section7">Ä ja för gammal?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section8">Ä ja i för dåli förm?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section9">Hur många lär man va för å spela?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section10">Hur hitter ja nån å spela mä rå?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+        <div class="question" id="section11">Va gö ja när ja komme lit då?</div>
+        <div class="answer">
+          <p>.....</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="tack-sponsorer">
+      <h2>TACK TILL VÅRA SPONSORER:</h2>
+      <div class="sponsor-lista">
+        <a href="https://www.ica.se/butiker/nara/bollnas/ica-marknad-733/start/">Ica Nära Kilafors</a>
+        <a href="https://www.kilafors.se/en/home/">Kilafors</a>
+        <a href="https://www.grillkol.se/">Grillkol.se</a>
+        <a href="https://www.recykling.se/">Recykling</a>
+      </div>
+    </div>
 
     <div class="bli-sponsor-wrapper">
       <h2 class="bli-sponsor">HJÄLP OSS ATT VÄXA, BLI SPONSOR</h2>
@@ -54,16 +125,6 @@
         </div>
       </div>
         <p>info@kilaforspadel.se</p>
-    </div>
-
-    <div class="tack-sponsorer">
-      <h2>TACK TILL VÅRA SPONSORER:</h2>
-      <div class="sponsor-lista">
-        <a href="https://www.ica.se/butiker/nara/bollnas/ica-marknad-733/start/">Ica Nära Kilafors</a>
-        <a href="https://www.kilafors.se/en/home/">Kilafors</a>
-        <a href="https://www.grillkol.se/">Grillkol.se</a>
-        <a href="https://www.recykling.se/">Recykling</a>
-      </div>
     </div>
 
     <footer>
