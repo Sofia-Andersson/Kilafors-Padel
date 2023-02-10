@@ -84,13 +84,14 @@ header {
   font-size: 16px;
   border-radius: 30px;
   border-style: none;
+  margin: 0 28%;
 }
 
 .boka-knapp:hover {
   background-color: var(--lightgreen);
 }
     
- /* STYLING NAVBAR TOP */
+ /* STYLING NAVBAR TOP*/
 
 .topnav-wrapper {
   display: flex;
@@ -149,7 +150,7 @@ header {
   height: 50px;
 }
 
-/* STYLING TACK SPONSORER */
+/* STYLING TACK SPONSORER index.html */
 
 .tack-sponsorer {
   margin: 5% 5%;
@@ -168,7 +169,7 @@ header {
   margin-left: 10%;
 }
 
-/* STYLING BLI SPONSOR */
+/* STYLING BLI SPONSOR index.html */
 
 .bli-sponsor-wrapper {
   border-top: 2px dotted var(--green);
@@ -221,7 +222,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color:var(--darkgrey);
-    margin: 15%
+    margin: 0 15% 15% 15%
 }
 
 .bottomnav-left {
@@ -273,6 +274,46 @@ header {
     display: block;
     margin: -40px auto 20px auto;
     padding: 0 0 0 0;
+}
+
+/* STYLING SIDA företagssamarbeten.html */
+
+.företagssamarbeten-bli-sponsor-wrapper {
+  border-bottom: 2px dotted var(--green);
+  margin: 5% 5%;
+  font-size: 12px;
+}
+
+.företagssamarbeten-tack-sponsorer {
+  border-bottom: 2px dotted var(--green);
+  margin: 0 5%;
+  padding-bottom: 5%;
+}
+
+/* STYLING SIDA kilaforsopen.html */
+
+.kilafors-open-container {
+  height: 500px;
+  width: 400px;
+}
+
+.kilafors-open-image {
+  height: 100%;
+  width: 100%;
+  background-image: url(./material/image.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.kilafors-open-header {
+  padding-top: 100px;
+  font-size: 22px;
+}
+
+/* STYLING SIDA kontakt.html */
+
+.boka-knapp-wrapper {
+  margin: 10% 0 5% 0;
 }
 
 /* For Mobile */
