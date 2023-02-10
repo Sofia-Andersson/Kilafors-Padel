@@ -341,14 +341,14 @@ header {
   }
 
   a {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   li {
-    font-size: 14px;
+    font-size: 16px;
   }
   p{
-    font-size: 16px;;
+    font-size: 20px;;
   }
 
   h2.bli-sponsor {
@@ -366,7 +366,18 @@ header {
 
   /* Media Queries bottom navbar*/
 
-  .bottomnav-wrapper {
+  .bottomnav-left {
    visibility: hidden;
   }
+
+  .so-me-logo {
+    height: 80px;
+    margin-top: -50px;
+  }
+
+  .logo-bottom {
+    height: 80px;
+    margin-bottom: 80px;
+  }
+
   }
