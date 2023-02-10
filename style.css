@@ -213,6 +213,11 @@ header {
   display: block;
 }
 
+#matchi-länk, #kontakt-länk {
+  color:var(--lightgreen)
+
+}
+
 /* STYLING NAVBAR BOTTOM */
 
 .bottomnav-wrapper {
@@ -234,7 +239,7 @@ header {
   margin: 5%;
   display: flex;
   justify-content: space-around;
-  margin: 0 20%
+  margin: 20% 20%
 }
 
   /* Style the links inside the navigation bar */
@@ -301,6 +306,7 @@ header {
   background-image: url(./material/image.png);
   background-position: center;
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .kilafors-open-header {
