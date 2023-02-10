@@ -152,6 +152,7 @@ header {
 
 .tack-sponsorer {
   margin: 5% 5%;
+  padding: 5%
 }
 
 .sponsor-lista{
@@ -171,7 +172,8 @@ header {
 
 .bli-sponsor-wrapper {
   border-top: 2px dotted var(--green);
-  margin: 5% 5%;
+  margin: 10% 5%;
+  padding: 5%;
   font-size: 12px;
 }
 
@@ -188,13 +190,15 @@ header {
 
 .faqBox {
   border: 2px dotted var(--green);
-  margin: 5%;
+  margin: 10% 5% 5% 5%;
+  padding: 5%;
   background-color: var(--darkgrey);
 }
 
 .question {
   margin: 2%;
   padding: 2%;
+  font-size: 14px;
 }
 
 .question:hover {
@@ -363,6 +367,11 @@ header {
 
   .logo-top {
     height: 80px;
+  }
+
+  /* Media Queries FAQ-box */
+  .question {
+    font-size: 16px;
   }
 
   /* Media Queries bottom navbar*/
