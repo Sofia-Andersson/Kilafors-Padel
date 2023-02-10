@@ -365,6 +365,10 @@ header {
   h2.bli-sponsor {
     margin-top: 5%;
   }
+
+  .bli-sponsor-wrapper {
+    margin-bottom: 0;
+  }
   /* Media Queries top navbar */
 
   .topnav-wrapper {
@@ -386,9 +390,19 @@ header {
    visibility: hidden;
   }
 
+  .bottomnav-wrapper {
+    height:150px;
+  }
+
+  .bottomnav-images {
+    display: flex;
+    justify-content: center;
+  }
+
   .so-me-logo {
     height: 80px;
-    margin-top: -50px;
+    margin-top: -80px;
+    padding: 10px;
   }
 
   .logo-bottom {
@@ -401,5 +415,4 @@ header {
     height: 600px;
     width: auto;
     }
-
   }
