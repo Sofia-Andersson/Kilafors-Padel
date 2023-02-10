@@ -188,33 +188,38 @@ header {
 
 /* Styling FAQ-box */
 
-    .faqBox {
-      border: 2px dotted var(--green);
-      margin: 5%;
-      padding: 0 5% 5% 5%;
-      background-color: var(--darkgrey);
-    }
-    
-    .question {
-      margin: 2%;
-      padding: 2%;
-      font-size:14px;
-      margin:0;
-    }
+.faqBox {
+  border: 2px dotted var(--green);
+  margin: 2%;
+  background-color: var(--darkgrey);
+}
 
-    .question:hover {
-        color:var(--green);
-        display: inline;
-    }
-    
-    .answer {
-      display: none;
-    }
-    
-    .active + .answer {
-      display: block;
-    }
+.gridContainer {
+display: grid;
+grid-template-columns: 100%;
+}
 
+.submitButton {
+display: block;
+margin: 4% 45% 4% 45%;
+}
+
+.question {
+  margin: 2%;
+  padding: 2%;
+}
+
+.question:hover {
+  color:var(--green)
+}
+
+.answer {
+  display: none;
+}
+
+.active + .answer {
+  display: block;
+}
 
 /* STYLING NAVBAR BOTTOM */
 
@@ -226,11 +231,11 @@ header {
 }
 
 .bottomnav-left {
-    background-color: var(--darkgrey);
-    overflow: hidden;
-    display: flex;
-    margin: 5%;
-  }
+  background-color: var(--darkgrey);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
 
 .bottomnav-images {
   background-color: var(--darkgrey);
@@ -318,14 +323,5 @@ header {
 
 /* For Mobile */
 @media (max-width: 650px) {
-  .logo-bottom {
-    height: 50px;
-  }
 
-  .bottomnav-left,.bottomnav-right {
-    background-color: var(--darkgrey);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
   }
-}
