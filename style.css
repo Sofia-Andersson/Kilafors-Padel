@@ -55,6 +55,7 @@ header {
 .header-container {
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
     
 .header-text-button {
@@ -71,7 +72,6 @@ header {
 
 .video {
   z-index: 0;
-  position: relative;
 }
 
 .boka-knapp {
@@ -395,5 +395,11 @@ header {
     height: 80px;
     margin-bottom: 80px;
   }
+
+  /* Media Queries kilaforsopen.html */
+  .kilafors-open-container {
+    height: 600px;
+    width: auto;
+    }
 
   }
