@@ -303,6 +303,7 @@ header {
   border-bottom: 2px dotted var(--green);
   margin: 0 5%;
   padding-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 /* STYLING SIDA kilaforsopen.html */
@@ -318,12 +319,15 @@ header {
   background-image: url(./material/image.png);
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px;
 }
 
 .kilafors-open-header {
-  padding-top: 100px;
+  margin-top: -300px;
   font-size: 22px;
+}
+
+.bottomnav-wrapper-kilafors-open {
+  padding-top: 60px;
 }
 
 /* STYLING SIDA kontakt.html */
