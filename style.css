@@ -286,9 +286,8 @@ header {
   font-size: 8px;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   color: var(--grey);
-  float: right;
   margin: 0 10px 10px 0;
 }
 
